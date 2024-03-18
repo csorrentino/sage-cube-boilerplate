@@ -23,5 +23,8 @@
         "Csorrentino\\SageCubeBoilerplate\\Providers\\SageCubeBoilerplateServiceProvider"
       ]
     }
+  },
+  "require-dev": {
+    "roots/acorn": "^4.0"
   }
 }
