@@ -1,6 +1,6 @@
 {
   "name": "csorrentino/sage-cube-boilerplate",
-  "type": "package",
+  "type": "library",
   "description": "",
   "license": "MIT",
   "authors": [
