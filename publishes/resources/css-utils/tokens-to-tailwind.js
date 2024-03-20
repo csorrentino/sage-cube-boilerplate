@@ -7,7 +7,7 @@ import slugify from 'slugify';
  * @return {object} {key, value}
  */
 const tokensToTailwind = (tokens) => {
-  const nameSlug = (text) => slugify(text, {lower: true});
+  const nameSlug = (text) => slugify("" + text, {lower: true});
   let response = {};
 
   tokens.forEach(({name, value}) => {
