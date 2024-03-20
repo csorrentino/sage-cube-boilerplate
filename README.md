@@ -47,18 +47,3 @@ You can install these in your Sage theme with:
 ```shell
 $ yarn add postcss-js postcss-import-ext-glob slugify -D
 ```
-
-
-## Usage
-
-From a Blade template:
-
-```blade
-@include('Example::example')
-```
-
-From WP-CLI:
-
-```shell
-$ wp acorn example
-```
